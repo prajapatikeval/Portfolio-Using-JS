@@ -139,13 +139,6 @@ html{
     justify-content: center;
     align-items: center;
 }
-.signature{
-    text-decoration: none;
-    color: var(--titleColor);
-    font-size: 35px;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Style Script', cursive;
-}
 .hero--content{
     width: 900px;
     margin: 0 auto;
@@ -352,15 +345,6 @@ html{
     display: flex;
     justify-content: space-between;
 }
-.project--body--edit .link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5em 0.7em;
-}
-.project--body--edit > a:nth-child(2){
-    margin-right: 5px;
-}
 .link{
     text-decoration: none;
     color: var(--mainText);
@@ -427,15 +411,6 @@ html{
 .skill_edit{
     display: flex;
     justify-content: space-between;
-}
-.skill_edit_button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-}
-.skill_edit_button .bttn{
-    padding: 1px 5px;
 }
 .skill--logo{
     height:30px;
@@ -647,12 +622,12 @@ html{
     }
 }
 @media (max-width:1115px){
-    .hero, .project-section, .about-section, .navigation-bar, .project--cont, .inbox-header{
+    .hero, .project-section, .about-section, .navigation-bar{
         margin-left: 0.7em;
         margin-right: 0.7em;
     }
     .project--header--image{
-        margin-left: 0.7em;
+        margin-left: 0.7em; 
     }
     .project--detail--section{
         margin-right: 0.7em;
@@ -702,17 +677,11 @@ html{
         width: 100%;
         max-height: 450px;
     }
-    .main--individual--project--section{
-        flex-direction: column;
-    }
     .project--body--btn{
         margin-top: 1em;
     }
     .description{
         font-size: 50px;
-    }
-    .project-wrapper{
-        grid-template-columns: 1fr 1fr;
     }
 }
 @media (max-width:900px) {
@@ -911,9 +880,6 @@ html{
         width: fit-content;
         justify-content: center;
     }
-    .project-wrapper{
-        grid-template-columns: 1fr;
-    }
     .cursor{
         background-color: red;
     }
@@ -954,12 +920,6 @@ html{
     }
 }
 @media (max-width:460px){
-    .search--form{
-        width: 200px;
-    }
-    /* .project--thumbnail{
-        height: 165px;
-    } */
     .intro--name{
         font-size: 40px;
     }
