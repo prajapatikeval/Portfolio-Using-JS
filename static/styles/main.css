@@ -442,7 +442,8 @@ html{
 }
 .skill--logo{
     height:40px;
-    width: 40px;
+    /* width: 40px; */
+    width: 60px;
     background:none;
     mix-blend-mode: hard-light;
 }
@@ -487,7 +488,8 @@ html{
 .contact-form-section{
     line-height: 1.4;
     font-size: 1rem;
-    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));
+    /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)); */
+    background-color: var(--mainColor);
     color: #444343;
     font-weight: 500;
     padding-top: 2em;
@@ -496,7 +498,8 @@ html{
 .contact-form-section .title{
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--mainText);
+    /* color: #fff; */
     line-height: 2;
     font-size: 2rem;
 }
@@ -598,14 +601,13 @@ html{
 .footer{
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0;
+    background-color: var(--secondaryColor);
     padding: 0em 5em 0em 5em;
 }
 .footer--container{
     display: flex;
     justify-content: space-between;
-    margin-top: 4em;
-    margin-bottom: 2.2em;
+    padding-top: 3em;
     padding-bottom: 3.5em;
     border-bottom: 1px solid var(--borderColor);
 }
@@ -632,7 +634,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2.2em;
+    padding-bottom: 2.2em;
 }
 
 
