@@ -223,9 +223,6 @@ html{
 .intro--line{
     max-width: 360px;
 }
-.intro--line .intro--title:nth-child(1){
-    text-align: center;
-}
 .intro--title{
     line-height: 1.8;
     font-size: 1.1rem;
@@ -441,9 +438,8 @@ html{
     padding: 1px 5px;
 }
 .skill--logo{
-    height:40px;
-    /* width: 40px; */
-    width: 60px;
+    height:30px;
+    width: 30px;
     background:none;
     mix-blend-mode: hard-light;
 }
@@ -772,6 +768,9 @@ html{
     .add{
         font-size: 15px;
     }
+    .skill--wrapper{
+        gap: 1em;
+    }
     .skill--logo{
         height: 25px;
         width: 25px;
@@ -825,7 +824,7 @@ html{
         gap: 1em;
     }
     .intro--line .intro--title:first-child{
-        text-align: none;
+        text-align: center;
         font-size: 1.5rem;
     }
     .intro--title b{
