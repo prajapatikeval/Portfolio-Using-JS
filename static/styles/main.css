@@ -274,21 +274,14 @@ html{
 .inner--project--wrapper--thumbnail{
     display: flex;
 }
-.project--slogan{
-    color: rgb(109, 108, 108);
-    font-size: 1rem;
-    line-height: 1.7;
-    display: flex;
-    justify-content: space-between;
+.project--slogan>h5{
+    font-weight: 500;
+    color: rgb(90, 90, 90);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    height: 1.5em;
 }
-.project--slogan h5{
-    font-weight: 400;
-}
-.project--slogan .bttn{
-    align-items: center;
-    justify-content: center;
-    padding: 1.5px 5px;
-}
+
 .project--thumbnail{
     width: 400px;
     height: 230px;
@@ -343,6 +336,7 @@ html{
     justify-content: end;
 }
 .view--page .btn{
+    margin-right: 1em;
     background-color: var(--tagColor);
     color:  #777;
     border: none;
@@ -367,7 +361,6 @@ html{
     line-height: 1.8;
     font-weight: 500;
     font-size: 1em;
-    /* color: rgb(44, 44, 44); */
     color: rgb(90, 90, 90);
 }
 
@@ -699,6 +692,10 @@ html{
     .project--body--div{
         margin: 0px 30px;
     }
+    .project-section{
+        margin-left: 0.1em;
+        margin-right: 0.1em;
+    }
     .project--thumbnail{
         width: 100%;    
         height: 100%;
@@ -715,7 +712,7 @@ html{
         padding: 2px;
     }
     .project--body>.heading--text{
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 1.5;
         font-weight: 650;
         height: 1.5em;
@@ -725,6 +722,8 @@ html{
     }
     .inner--project--wrapper--body{
         padding: 0.5em 0.5em;
+        align-items: center;
+        text-align: center;
         flex-direction: row;
     }
     .add{
@@ -915,6 +914,9 @@ html{
 @media (max-width:460px){
     .intro--name{
         font-size: 40px;
+    }
+    .project--slogan>h5{
+        font-size: 1rem;
     }
 }
 @media (max-width:350px){
