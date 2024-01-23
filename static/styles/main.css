@@ -571,7 +571,7 @@ html{
     display: flex;
     justify-content: space-between;
     padding-top: 3em;
-    padding-bottom: 3.5em;
+    padding-bottom: 2em;
     border-bottom: 1px solid var(--borderColor);
 }
 .footer--container--name--section{
@@ -597,7 +597,8 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2.2em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
 }
 
 
