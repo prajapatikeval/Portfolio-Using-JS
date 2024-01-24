@@ -336,15 +336,15 @@ html{
 }
 .view--page .btn{
     margin-right: 1em;
-    background-color: var(--tagColor);
-    color:  #777;
+    background-color: rgba(0, 98, 185, 0.8);
+    color:  #f1ecec;
     border: none;
     line-height: 1.7;
     font-weight: 600;
     font-size: 0.9rem;
 }
 .view--page .btn:hover{
-    color: var(--mainText);
+    color: #FFFFFF;
 }
 
 /* About section */
