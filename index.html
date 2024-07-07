@@ -1,439 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keval Portfolio</title>
-    <link rel="icon" href="static/images/Skill_image.png" type="image/icon type">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/styles/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keval Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/Skill_image.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1 class="intro--name"><b>Hi, I'm Keval Prajapati</b></h1>
-    <section class="navigation-bar">
-        <div class="dekstop-version-btn">
-            <a class="nav-link" href="#projects">
-                Projects
-            </a>
-            <a class="nav-link" href="#skills">
-                Skills
-            </a>
-            <a class="nav-link" href="#contact_us">
-                Contact
-            </a>
-        </div>
 
-        <div class="mobile-navbar-btn">
-            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
-            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
-        </div>
-    </section>
-    
-    <section class="hero">
-        
-        <div class="hero--content">
-            <div class="hero--content--intro">
-                <div>
-                    <img id="profile_pic" src="static/images/My_image.png" alt="Not available">
-                </div>
-                <div class="intro">
-                    <div class="intro--line">
-                        <p class="intro--title">I am <b>Back End</b> Developer</p>
-                        <p class="intro--title">I'm Currently pursing my Bachelor of Engineering from Swaminarayan College Of Engineering & Technology - [SCET], Kalol.</p>
-                    </div> 
-                    <div class="intro--button">
-                        <a href="static/Files/Keval_Prajapati_Resume.pdf" class="btn" target="_blank">resume</a>
-                    </div>
-                </div>
-            </div>
-            <div class="hero--content--subheadline">
-                <div class="Type">
-                    <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                </div>
-            </div>
-                
-        </div>
-    </section>
+  <!--
+    - #MAIN
+  -->
 
-    <section class="project-section" id="projects">
-        <div class="project--container">
-
-            <div class="project--title">
-                <h3 class="title">My Projects</h3>
-            </div>
-            <div class="project--slogan">
-                <h5 >Projects that makes my journy worthwhile</h5>
-            </div>
-            <div class="project-wrapper">
-
-                <!-- News App -->
-                <div class="project--column">
-                    <div class="inner--project--wrapper--thumbnail">
-                        <div>
-                            <img class="project--thumbnail" src="static/images/News_app.PNG" alt="Not available">
-                        </div>
-                        <div class="inner--project--wrapper--body">
-                            <div class="project--main--text">
-                                <div class="project--body">
-                                        <h3 class="heading--text">News WebApp</h3>
-                                </div>
-                                <div class="project--body">
-                                    <div class="card--title--text"> 
-                                        I've successfully developed a dynamic news website using React.js, seamlessly integrating data from the News API. I further enhanced the user interface and responsiveness by incorporating Bootstrap, ensuring a seamless and visually appealing user experience.     
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project--body--view--button">
-                                <a href="https://github.com/prajapatikeval/react_news_app" target="_blank" class="view--detail--button">More Info <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                            </div>    
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-            <div class="view--page">
-                <a href="https://github.com/prajapatikeval" target="_blank" class="btn btn-outline-secondary">View More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-            </div>
-            
-        </div>
-    </section>
-    
-    <section class="about-section">
-        <div class="about--wrapper">
-                <div>
-                    <div>
-                        <h3 class="title">More About Me</h3>
-                    </div>
-                </div>
-                <p class="about--me">Hello, I'm Keval Prajapati, a passionate individual currently pursuing my Bachelor of Engineering at Swaminarayan College Of Engineering & Technology (SCET) in Kalol. My educational journey has provided me with a solid foundation in technology and engineering principles.</p>
-                <p class="about--me">In addition to my academic pursuits, I find joy in exploring the vast landscape of technology, always eager to stay ahead of industry trends. I believe in the power of continuous learning and strive to expand my knowledge in backend technologies, frameworks, and best practices.</p>
-        </div>
-    </section>
-    
-    <section class="skills-section" id="skills">
-        <div class="skills--container">
-            <div class="skill--slogan">
-                <h3 class="title">Skills</h3>
-            </div>
-            
-                <div class="skill--wrapper">
-                    <img src="static/images/Skill_image.png" class="skill--logo">
-                    <div style="width:100%;">
-                        <div class= "skill_edit">
-                            <h5 class="skill--title">Python</h5>
-                        </div>
-                        <div>
-                            <p class="skill--body">"I've successfully completed a Python course on Coursera, created by Google, I've translated this knowledge into tangible results by undertaking various projects, where I harnessed the power of Python libraries to build practical and impactful solutions.</p>    
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill--wrapper">
-                    <img src="static/images/Skill_image.png" class="skill--logo">
-                    <div style="width:100%;">
-                        <div class= "skill_edit">
-                            <h5 class="skill--title">Django</h5>
-                        </div>
-                        <div>
-                            <p class="skill--body">I bring over a year of hands-on experience in successfully designing and implementing projects that leverage cutting-edge technologies, with a particular focus on websockets, Redis and many more.</p>    
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill--wrapper">
-                    <img src="static/images/Skill_image.png" class="skill--logo">
-                    <div style="width:100%;">
-                        <div class= "skill_edit">
-                            <h5 class="skill--title">C</h5>
-                        </div>
-                        <div>
-                            <p class="skill--body">I embarked on my professional journey by delving into C, mastering its fundamentals, and applying my knowledge through the completion of various simple yet impactful projects.</p>    
-                        </div>
-                    </div>
-                </div>
-                <div class="skill--wrapper">
-                    <img src="static/images/Skill_image.png" class="skill--logo">
-                    <div style="width:100%;">
-                        <div class= "skill_edit">
-                            <h5 class="skill--title">C++</h5>
-                        </div>
-                        <div>
-                            <p class="skill--body">I have actively applied Object-Oriented Programming (OOP) concepts in my work, Through the application of OOP principles, I have successfully executed various projects.</p>    
-                        </div>
-                    </div>
-                </div>
-                <div class="skill--wrapper">
-                    <img src="static/images/Skill_image.png" class="skill--logo">
-                    <div style="width:100%;">
-                        <div class= "skill_edit">
-                            <h5 class="skill--title">Java</h5>
-                        </div>
-                        <div>
-                            <p class="skill--body">I have completed comprehensive training in Core Java, and I have applied my knowledge in practical settings through the implementation of various projects.</p>    
-                        </div>
-                    </div>
-                </div>
-        
-        <h4 style="padding-bottom:1em;">Other Skills</h4>
-        <div class="other--skills--wrapper">
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">HTML</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">CSS</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">JavaScript</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">React JS</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">Bootstrap</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">GIT</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">MongoDB</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">SQL</span>
-                    </div>
-                </div>
-                <div class="skill--tag">
-                    <div>
-                        <span class="skill--tag--title">PostgreSQL</span>
-                    </div>
-                </div>
-        </div>
-        </div>
-    </section>
-    
-    <section class="contact-form-section" id="contact_us">
-        <div style="text-align:center;">
-            <div><h1 class="title">CONTACT</h1></div>
-            <div></div>
-        </div>
-        <div class="container form-section">
-            <form class="contact--form" id="submit-form" method="post">
-                <div class="form-group">
-                    <label for="user_name">Name</label><br>
-                    <input type="text" name="name" id="user_name"  
-                            placeholder="Keval prajapati">
-                </div>
-                <div class="form-group">
-                    <label for="user_email">Email</label><br>
-                    <input type="text" name="email" id="user_email" 
-                            placeholder="kevalprajapati1001@gmail.com">
-                </div>
-                <div class="form-group">
-                    <label for="user_subject">Subject</label><br>
-                    <input type="text" name="subject" id="user_subject"
-                            placeholder="Your Subject">
-                </div>
-                <div class="form-group message-box">
-                    <label for="user_description">Description</label><br>
-                    <textarea name="description" id="user_description" 
-                            placeholder="Your Description"></textarea>
-                </div>
-                <div class="message">
-                    <div class="success" id="success">Your Message Sucessfully Sent!</div>
-                    <div class="danger" id="danger">Fields Can't be Empty!</div>
-                </div>
-                <div class="form-group send--button">
-                    <input class="btn btn-primary" id="message-submit" type="submit" value="Send">
-                </div>
-            </form>
-        </div>
-        
-    </section> 
-
-    <footer class="footer">
-        <div class="footer--container">
-            <div class="footer--container--name--section">
-                <div>
-                    <h4>Keval Prajapati</h4>
-                </div>
-                <div>
-                    <h6><b>Email: </b>kevalparajapati1001@gmail.com</h6>
-                    <h6><b>contact: </b>+91 8849091135</h6>
-                </div>
-            </div>
-            <div class="footer--container--social--section">
-                <div>
-                    <h2>Social</h2>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/kevall.27/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="https://github.com/prajapatikeval" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-                    <a href="https://www.linkedin.com/in/prajapatikeval/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer--slogan">Made By Keval Prajapti</div>
-    </footer>
-    
-    
-    <!-- for scroll to top button -->
-
-    <a class="gotobtn"  id="goTopButton">
-        <img class="gotobtn_image"  src="static/images/arrow_up.png">
-    </a>
+  <main>
 
     <!--
-        SCRIPT Section
+      - #SIDEBAR
     -->
 
-    <!-- Mobile View Navbar -->
-    <script>
-        const mobile_nav = document.querySelector(".mobile-navbar-btn");
-        const nav_header = document.querySelector(".navigation-bar");
-        const navLinks = nav_header.querySelectorAll(".nav-link");
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
 
+        <div class="info-content">
+          <h1 class="name" title="Keval Prajapati">Keval Prajapati</h1>
+          <p class="title">FullStack developer</p>
+        </div>
 
-        const toggleNavbar = () =>{
-            nav_header.classList.toggle("active");
-        };
-        
-        mobile_nav.addEventListener("click",()=> toggleNavbar());
-        
-        navLinks.forEach((link) => {
-            link.addEventListener("click", () => {
-                nav_header.classList.remove("active");
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:kevalprajapati1001@gmail.com" class="contact-link">kevalprajapati1001@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+918849091135" class="contact-link">+91 8849091135</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-01-27">Jan 27, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Ahmedabad, Gujarat, INDIA</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/prajapatikeval" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/prajapatikeval/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/kevall.27/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+    <!--
+      - #main-content
+    -->
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello, I'm Keval Prajapati, a passionate individual currently pursuing my Bachelor of Engineering 
+            at Swaminarayan College Of Engineering & Technology (SCET) in Kalol. 
+            My educational journey has provided me with a solid foundation in technology and engineering principles.
+          </p>
+
+          <p>
+            In addition to my academic pursuits, I find joy in exploring the vast landscape of technology, 
+            always eager to stay ahead of industry trends. I believe in the power of continuous learning and strive to 
+            expand my knowledge in backend technologies, frameworks, and best practices.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend development</h4>
+                <p class="service-item-text">
+                  High-quality development of backend implementation at the professional level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Diploma in Computer Engineering</h4>
+              <span>Sept 2017 — May 2021</span>
+              <p class="timeline-text">
+                Shree Swaminarayan College of Engineering & Technology, Gujarat, India.
+              </p>
+              <p class="timeline-text">CGPA: 7.65/10</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Engineering</h4>
+              <span>Aug 2021 — May 2024</span>
+              <p class="timeline-text">
+                Shree Swaminarayan College of Engineering & Technology, Gujarat, India..
+              </p>
+              <p class="timeline-text">CGPA: 8.30/10</p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Django Intern</h4>
+              <span>Jul 2023 — Aug 2023</span>
+              <p class="timeline-text">
+                BrainyBeam Technologies Pvt. Ltd, Ahmedabad (Remote).
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer Intern</h4>
+              <span>Mar 2024 — Present</span>
+              <p class="timeline-text">
+                Botspot Infoware Pvt. Ltd, Science City Ahmedabad (On-Site).
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Django</h5>
+                <data value="70">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Odoo</h5>
+                <data value="70">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React JS</h5>
+                <data value="10">20%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind CSS</h5>
+                <data value="10">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/prajapatikeval/Chat_Application" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/chat_application.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Chat Application</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/prajapatikeval/Todo_Django_React" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/todo.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Todo Web App</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/prajapatikeval/Split-Merge-PDF" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/split_merge.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">Split Merge PDF</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/prajapatikeval/Hotel_Management" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/hotel_management.jpeg" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Hotel Management System</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/prajapatikeval/react_news_app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/News_app.png" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">React News App</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58662.56489479616!2d72.46095224308266!3d23.228151707349763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c25e6c08bf663%3A0xff94e46a22aeb386!2sKalol%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1720352614362!5m2!1sen!2sin" 
+            width="400" height="300" loading="lazy">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="" id="submit-form" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="description" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <!-- Form Submit System -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+          (function() {
+              emailjs.init('RFDARL6n8hfQ4rTDe')
+          })();
+          
+  </script>
+  <script type="text/javascript">
+    document.getElementById('submit-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        emailjs.sendForm('service_mmxcc1j', 'template_1fejpnh', this)
+            .then(function() {
+                // Reset form fields
+                document.getElementById('submit-form').reset();
+            }, function(error) {
+                console.log(error)
             });
-        });
+    });
+  </script>
+  <script src="./assets/js/script.js"></script>
 
-    </script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <!-- Form Submit System -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-            (function() {
-                emailjs.init('RFDARL6n8hfQ4rTDe')
-            })();
-            
-    </script>
-
-    <script type="text/javascript">
-        window.onload = function() {
-            var successMessage = document.getElementById('success');
-            var dangerMessage = document.getElementById('danger');
-            var formSubmitted = false;
-
-            // Function to check and display error message
-            function checkFields() {
-                var fields = document.querySelectorAll('.contact--form input, .contact--form textarea');
-                var isEmpty = false;
-
-                for (var i = 0; i < fields.length; i++) {
-                    if (fields[i].type !== 'submit' && fields[i].value.trim() === '') {
-                        isEmpty = true;
-                        break;
-                    }
-                }
-
-                if (isEmpty && formSubmitted) {
-                    dangerMessage.style.opacity = '1';
-                } else {
-                    dangerMessage.style.opacity = '0';
-                }
-            }
-
-            // Add input event listener to each input field to check for empty fields
-            var inputFields = document.querySelectorAll('.contact--form input, .contact--form textarea');
-            inputFields.forEach(function(input) {
-                input.addEventListener('input', function() {
-                    checkFields();
-                });
-            });
-
-            document.getElementById('submit-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-
-                // Reset messages
-                successMessage.style.opacity = '0';
-                dangerMessage.style.opacity = '0';
-
-                // Check if any field is empty
-                var fields = this.elements;
-                var isEmpty = false;
-                for (var i = 0; i < fields.length - 1; i++) {
-                    if (fields[i].type !== 'submit' && fields[i].value.trim() === '') {
-                        isEmpty = true;
-                        break;
-                    }
-                }
-
-                if (isEmpty) {
-                    dangerMessage.style.opacity = '1';
-                    formSubmitted = true;
-                } else {
-                    emailjs.sendForm('service_mmxcc1j', 'template_1fejpnh', this)
-                        .then(function() {
-                            successMessage.style.opacity = '1';
-
-                            // Reset form fields
-                            document.getElementById('submit-form').reset();
-
-                            // Hide success message after 3 seconds
-                            setTimeout(function() {
-                                successMessage.style.opacity = '0';
-                            }, 3000);
-
-                            formSubmitted = false;
-                        }, function(error) {
-                            // Handle error if needed
-                        });
-                }
-            });
-        }
-    </script>
-
-    <!-- Top Goto Button -->
-    <script>
-        const goTopButton = document.getElementById('goTopButton');
-        const scrollThreshold = 200; // You can adjust this value
-
-        function checkScrollPosition() {
-            if (window.scrollY > scrollThreshold) {
-                goTopButton.style.display = 'block';
-            } else {
-                goTopButton.style.display = 'none';
-            }
-        }
-
-        window.addEventListener('scroll', checkScrollPosition);
-        window.addEventListener('load', checkScrollPosition);
-
-        goTopButton.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="static/styles/main.js"></script>
-    
-    <!-- Script for my icon -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    
 </body>
+
 </html>
